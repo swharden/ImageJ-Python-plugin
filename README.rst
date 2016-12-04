@@ -9,7 +9,7 @@ Configuration
  - Only python files containing an underscore (_) will appear as a plugin. Let's call them "plugin files"
  - "plugin files" should contain _no custom code_ related to the task of your plugin. Instaed, write your code in a separate python script (without any underscores), and have your "plugin file" import it as a module and call its functions. 
  - When your plugin is run (by someone listed as a developer), the old module will be unloaded, the compiled code (a java class) will be deleted from the hard drive, and the new python module will be reloaded.
- - ensure you customize your "plugin files" by changing the values of `THIS_FOLDER <SWH/boilerplate/python_boiler.py#L14>`_, `developerIDs <SWH/boilerplate/python_boiler.py#L17>`_, and the contents of the main program (at the `very bottom <SWH/boilerplate/python_boiler.py#L66>`_`_ of the script).
+ - ensure you customize your "plugin files" by changing the values of `THIS_FOLDER <SWH/boilerplate/python_boiler.py#L14>`_, `developerIDs <SWH/boilerplate/python_boiler.py#L17>`_, and the contents of the main program (at the `very bottom <SWH/boilerplate/python_boiler.py#L66>`_ of the script).
  
 Tips
  - It's easy to write 1 module with all the code in it, then several "plugin files" to call different parts of that same module. Perhaps it's convenient to call the same functions, but with different arguments.
