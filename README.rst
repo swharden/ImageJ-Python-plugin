@@ -20,18 +20,18 @@ Screenshot
 
 Links
 ----
-  There's a pypi package which allows reading of ImageJ ROIs in python:
-    - https://pypi.python.org/pypi/PymageJ
-    - https://github.com/Jhsmit/PymageJ/
+There's a pypi package which allows reading of ImageJ ROIs in python:
+  - https://pypi.python.org/pypi/PymageJ
+  - https://github.com/Jhsmit/PymageJ/
 
-  You can now write ImageJ macros in Python (Python 2 / Jython)
-    - http://marcora.caltech.edu/jython_imagej_howto.htm
-    - https://pypi.python.org/pypi/PymageJ
-    - https://www.ini.uzh.ch/~acardona/fiji-tutorial/
+You can now write ImageJ macros in Python (Python 2 / Jython)
+  - http://marcora.caltech.edu/jython_imagej_howto.htm
+  - https://pypi.python.org/pypi/PymageJ
+  - https://www.ini.uzh.ch/~acardona/fiji-tutorial/
 
-  This is far more convenient than ImageJ's macro language (which is still useful):
-    - https://imagej.nih.gov/ij/developer/macro/macros.html
-    - https://imagej.nih.gov/ij/developer/macro/functions.html
+This is far more convenient than ImageJ's macro language (which is still useful):
+  - https://imagej.nih.gov/ij/developer/macro/macros.html
+  - https://imagej.nih.gov/ij/developer/macro/functions.html
 
 
 
